@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #185215;
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #BCEB9F;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background-color:green
+    padding 10px 20px 0px;
+    
+}
+.header {
+    background-color: #BCEB9F;
+    min-height: 150px;
+    height: 210px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #153f15;
+    table {
+        -webkit-box-shadow: -4px 6px 21px -7px rgba(0,0,0,0.55); 
+        box-shadow: -4px 6px 21px -7px rgba(0,0,0,0.55);
+        border: solid 1px lightgray;
+        text-align: center;
+    }
+
+    }
+    table thead td {   
+        background-color: #185215;
+        color: #BCEB9F;  
+    }
+    table tfoot th {
+        background-color: #BCEB9F ;    
+
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#185215;
+        width: 100%;
+    }
+    .form_box{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 8px;
+        width: 700px;
+    }
+    .form_box .title{
+        padding: 24px 32px;
+        font-size: 24px;
+        border-bottom: thin solid #CCC;
+    }
+    .form_box form{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        padding: calc(15px / 2)
+    }
+    .form_box input,
+    .form_box textarea{
+        width: calc(20% 4px);
+        height: 15px;
+        border-radius: 8px;
+        border: thin solid#999;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .form_box textarea{
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+    }
+    .form_box button{
+        display: block;
+        border: none;
+        outline: none;
+        width: 180px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: #185215;
+        color: #BCEB9F;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .form_box button:hover{
+        background-color: white;
+    }
+.footer {
+    background-color:#BCEB9F;
+    min-height: 150px;
+}
